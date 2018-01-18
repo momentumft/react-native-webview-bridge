@@ -35,7 +35,6 @@ var {
     WebViewBridgeManager
   }
 } = ReactNative;
-var { PropTypes } = React;
 
 var BGWASH = 'rgba(255,255,255,0.8)';
 var RCT_WEBVIEWBRIDGE_REF = 'webviewbridge';
@@ -53,7 +52,7 @@ var NavigationType = {
   formsubmit: RCTWebViewBridgeManager.NavigationType.FormSubmitted,
   backforward: RCTWebViewBridgeManager.NavigationType.BackForward,
   reload: RCTWebViewBridgeManager.NavigationType.Reload,
-  formresubmit: RCTWebViewBridgeManager.NavigationType.FormResubmitted,
+  formresubmit: RCTWebViewBridgeManager.NavigationType.FormResubmitted,var { PropTypes } = React;
   other: RCTWebViewBridgeManager.NavigationType.Other,
 };
 
