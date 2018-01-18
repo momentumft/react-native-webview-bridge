@@ -52,7 +52,7 @@ var NavigationType = {
   formsubmit: RCTWebViewBridgeManager.NavigationType.FormSubmitted,
   backforward: RCTWebViewBridgeManager.NavigationType.BackForward,
   reload: RCTWebViewBridgeManager.NavigationType.Reload,
-  formresubmit: RCTWebViewBridgeManager.NavigationType.FormResubmitted,var { PropTypes } = React;
+  formresubmit: RCTWebViewBridgeManager.NavigationType.FormResubmitted,
   other: RCTWebViewBridgeManager.NavigationType.Other,
 };
 
