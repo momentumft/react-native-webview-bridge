@@ -6,7 +6,7 @@
     return;
   }
 
-  var RNWBSchema = 'wvb';
+  var RNWBSchema = 'RNWBSchema';
   var sendQueue = [];
   var receiveQueue = [];
   var doc = window.document;

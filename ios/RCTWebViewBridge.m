@@ -31,7 +31,7 @@
 
 //we don'e need this one since it has been defined in RCTWebView.m
 //NSString *const RCTJSNavigationScheme = @"react-js-navigation";
-NSString *const RCTWebViewBridgeSchema = @"wvb";
+NSString *const RCTWebViewBridgeSchema = @"RNWBSchema";
 
 // runtime trick to remove UIWebview keyboard default toolbar
 // see: http://stackoverflow.com/questions/19033292/ios-7-uiwebview-keyboard-issue/19042279#19042279
@@ -374,7 +374,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
         return;
       }
 
-      var RNWBSchema = 'wvb';
+      var RNWBSchema = 'RNWBSchema';
       var sendQueue = [];
       var receiveQueue = [];
       var doc = window.document;
