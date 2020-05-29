@@ -56,14 +56,14 @@ RCT_REMAP_VIEW_PROPERTY(keyboardDisplayRequiresUserAction, _webView.keyboardDisp
 - (NSDictionary<NSString *, id> *)constantsToExport
 {
   return @{
-    @"JSNavigationScheme": RCTJSNavigationScheme,
+    @"JSNavigationScheme": @"react-js-navigation",
     @"NavigationType": @{
-      @"LinkClicked": @(UIWebViewNavigationTypeLinkClicked),
-      @"FormSubmitted": @(UIWebViewNavigationTypeFormSubmitted),
-      @"BackForward": @(UIWebViewNavigationTypeBackForward),
-      @"Reload": @(UIWebViewNavigationTypeReload),
-      @"FormResubmitted": @(UIWebViewNavigationTypeFormResubmitted),
-      @"Other": @(UIWebViewNavigationTypeOther)
+      @"LinkClicked": @0,
+      @"FormSubmitted": @1,
+      @"BackForward": @2,
+      @"Reload": @3,
+      @"FormResubmitted": @4,
+      @"Other": @5
     },
   };
 }
