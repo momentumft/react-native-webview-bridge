@@ -32,5 +32,8 @@
   "dependencies": {
     "invariant": "2.2.0",
     "keymirror": "0.1.1"
+  },
+  "peerDependencies": {
+    "react-native-webview": "^7.5.2"
   }
 }
